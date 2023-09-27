@@ -1,0 +1,50 @@
+h1 {
+    color: var(--h1-color);
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+span {
+    color: var(--span-color);
+}
+
+:root {
+    /* A light gray for the background */
+    --primary-bg: #f0f0f0;
+    /* Pure white for cards or modals */
+    --secondary-bg: #ffffff;
+    /* Almost black for primary text */
+    --primary-text: #333333;
+    /* A lighter gray for secondary text or subtitles */
+    --secondary-text: #555555;
+    /* A strong blue for accents, drawn from your original primary blue */
+    --accent-strong: #0066cc;
+    /* A mild green for highlights, drawn from your original secondary green */
+    --accent-mild: #009966;
+    /* A very light gray for borders or less important text */
+    --accent-subtle: #cccccc;
+    --span-color: orange;
+    --h1-color: red;
+}
+  
+  /* Dark Theme (Original Portfolio colors) */
+  .dark-theme {
+    --primary-bg: #343a40;
+    --secondary-bg: #292929;
+    --primary-text: #ffffff;
+    --secondary-text: #cccccc;
+    --accent-strong: #007BFF;
+    --accent-mild: #8fd29f;
+    --accent-subtle: #a5d1ff;
+    --span-color: purple;
+    --h1-color: yellow;
+  }
+
+body{
+    background-color: var(--primary-bg);
+    color: var(--secondary-text);
+}
+

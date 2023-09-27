@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Akil's Capstone</title>
+  </head>
+  <body>
+    <h1>Welcome to my website!</h1>
+    <p>This is <span> NOT </span> my first web page.</p>
+    <h1>Past projects:</h1>
+    <p>Using the link provided, you can access my git hub and see some projects I've completed in the past:</p>
+    <a href="https://github.com/Akil92">My Github</a>
+    <button id="color-theme">Press me</button>
+    <script>
+      document.getElementById("color-theme").addEventListener("click",()=> {
+        document.body.classList.toggle("dark-theme");
+      });
+    </script>
+  </body>
+</html>
