@@ -1,10 +1,24 @@
 h1 {
     color: var(--h1-color);
+    text-align: center;
+}
+
+h2 {
+    color: var(--h1-color);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-color: var(--border-color);
+    margin:auto;
+    text-align: center;
+    border-style: dashed;
+    border-width: 5px;
+    width: 250px;
 }
 
 p {
-    color: #666;
-    font-size: 18px;
+    color: var(--p-color);
+    font-size: 22px;
 }
 
 span {
@@ -13,34 +27,22 @@ span {
 
 :root {
     /* A light gray for the background */
-    --primary-bg: #f0f0f0;
-    /* Pure white for cards or modals */
-    --secondary-bg: #ffffff;
-    /* Almost black for primary text */
-    --primary-text: #333333;
-    /* A lighter gray for secondary text or subtitles */
+    --primary-bg: #fff4e5;
     --secondary-text: #555555;
-    /* A strong blue for accents, drawn from your original primary blue */
-    --accent-strong: #0066cc;
-    /* A mild green for highlights, drawn from your original secondary green */
-    --accent-mild: #009966;
-    /* A very light gray for borders or less important text */
-    --accent-subtle: #cccccc;
-    --span-color: orange;
+    --span-color: rgb(227, 201, 50);
     --h1-color: red;
+    --border-color: black;
+    --p-color: #666;
 }
   
   /* Dark Theme (Original Portfolio colors) */
   .dark-theme {
     --primary-bg: #343a40;
-    --secondary-bg: #292929;
-    --primary-text: #ffffff;
     --secondary-text: #cccccc;
-    --accent-strong: #007BFF;
-    --accent-mild: #8fd29f;
-    --accent-subtle: #a5d1ff;
-    --span-color: purple;
+    --span-color: red;
     --h1-color: yellow;
+    --border-color: white;
+    --p-color: color: #fff;
   }
 
 body{
